@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AnaSayfa.master.cs" Inherits="MasterPageUygulamaa.AnaSayfa" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+   
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+
+        li{
+            color:white;
+        }
+
+        li a{
+
+            text-decoration:none;
+            font-weight:bold;
+        }
+
+        li a :hover{
+            text-decoration:underline;
+        }
+
+        #mainContainer {
+            width: 1000px;
+            height: 600px;
+            background-color: gray;
+            
+        }
+
+        #top{
+            width:1000px;
+            height:80px;
+            background-color:lightgreen;
+            background-image:url(images/banner.jpg);
+            background-attachment:fixed;
+            background-repeat:no-repeat;
+        }
+        #left{
+            width:200px;
+            height:420px;
+            float:left;
+            background-color:mediumpurple;
+        }
+        #content{
+            width:800px;
+            height:420px;
+            float:left;
+
+        }
+        .bottom{
+            width:1000px;
+            height:100px;
+            background-color:blueviolet;
+            margin-top:420px;
+        }
+
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+ <div id="mainContainer">
+     <div id="top" class="top"></div>
+     <div id="left" class="left">
+         <ul>
+             <asp:Repeater runat="server" ID="categories">
+<ItemTemplate><li><a href="CategoryDetails.aspx?kid=<%#Eval("CategoryID") %>">
+    <%#Eval("CategoryName")%></a></li></ItemTemplate>
+             </asp:Repeater>
+         </ul>
+     </div>
+     <div id="content" class="content">
+         <asp:ContentPlaceHolder id="contentPlace" runat="server"></asp:ContentPlaceHolder>
+     </div>
+     <div id="bottom" class="bottom"></div>
+
+ </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+c:\users\gökçen\documents\visual studio 2013\Projects\MasterPageUygulamaa\MasterPageUygulamaa\bin\MasterPageUygulamaa.dll.config
+c:\users\gökçen\documents\visual studio 2013\Projects\MasterPageUygulamaa\MasterPageUygulamaa\bin\MasterPageUygulamaa.dll
+c:\users\gökçen\documents\visual studio 2013\Projects\MasterPageUygulamaa\MasterPageUygulamaa\bin\MasterPageUygulamaa.pdb
+c:\users\gökçen\documents\visual studio 2013\Projects\MasterPageUygulamaa\MasterPageUygulamaa\bin\mscorlib.dll
+c:\users\gökçen\documents\visual studio 2013\Projects\MasterPageUygulamaa\MasterPageUygulamaa\bin\tr\mscorlib.resources.dll
+c:\users\gökçen\documents\visual studio 2013\Projects\MasterPageUygulamaa\MasterPageUygulamaa\bin\normidna.nlp
+c:\users\gökçen\documents\visual studio 2013\Projects\MasterPageUygulamaa\MasterPageUygulamaa\bin\normnfc.nlp
+c:\users\gökçen\documents\visual studio 2013\Projects\MasterPageUygulamaa\MasterPageUygulamaa\bin\normnfd.nlp
+c:\users\gökçen\documents\visual studio 2013\Projects\MasterPageUygulamaa\MasterPageUygulamaa\bin\normnfkc.nlp
+c:\users\gökçen\documents\visual studio 2013\Projects\MasterPageUygulamaa\MasterPageUygulamaa\bin\normnfkd.nlp
+c:\users\gökçen\documents\visual studio 2013\Projects\MasterPageUygulamaa\MasterPageUygulamaa\obj\Debug\MasterPageUygulamaa.csprojResolveAssemblyReference.cache
+c:\users\gökçen\documents\visual studio 2013\Projects\MasterPageUygulamaa\MasterPageUygulamaa\obj\Debug\MasterPageUygulamaa.dll
+c:\users\gökçen\documents\visual studio 2013\Projects\MasterPageUygulamaa\MasterPageUygulamaa\obj\Debug\MasterPageUygulamaa.pdb
